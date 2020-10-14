@@ -1,0 +1,25 @@
+{
+  "name": "TailWindCSS-Sandbox",
+  "version": "1.0.0",
+  "description": "Tail Wind CSS Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arosa81/TailWindCSS-Sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arosa81/TailWindCSS-Sandbox/issues"
+  },
+  "homepage": "https://github.com/arosa81/TailWindCSS-Sandbox#readme",
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.1"
+  }
+}
